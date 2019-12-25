@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="calendar-page">
+    <div id="about-header">
+        <div id="about-header-h1wrapper" class="events-header">
+            <h1>教會活動</h1>
+        </div>
+        <div class="about-wrapper-center">
+            <div id='calendar'></div>
+        </div>
+    </div>
+</div>
+
+<script src='{{ url_for('static',filename='calendar.js') }}'></script>
+{% endblock %}
+
+
+

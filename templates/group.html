@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div id="about-header">
+        <div id="about-header-h1wrapper">
+            <h1>小組</h1>
+        </div>
+        <div class="about-wrapper-center">
+            <img id="about-img" class="about-width" src="{{ url_for('static',filename='group.jpg') }}" alt="小組">
+        </div>
+        <div id="about-story" class="about-wrapper-center">
+            <div>
+                <h2 class="about-width">
+                    小組是基督城市教會關係凝聚的核心，在小組中我們擁有一群很棒的屬靈家人，一起在認識神的道路上同行，彼此相愛，互相扶持鼓勵。
+                    <br> <br>
+                    因應忙碌的大台北都會生活，目前我們將所有的小組，都安排在主日講道之後。
+                    在小組時間，我們討論當日的講道內容、分享神的話語亮光，交流生活近況，享受愛與被愛的真實關係，也透過神的愛，讓我們學習接納每個不同的彼此，擴張生命的境界與高度。
+                </h2>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div id="about-header">
+        <div id="about-header-h1wrapper">
+            <h1>聯絡我們</h1>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div class="about-width about-title contact-title">
+            <h2>教會所在位置</h2>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div class="about-width contact-location">
+            <div class="contact-location-two">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.1886849139037!2d121.56874401500615!3d25.0276699839753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abb27b974199%3A0x3394ab0c34e9c1f9!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5L-h576p6Lev5LqU5q61MTUw5be3OOiZnw!5e0!3m2!1szh-TW!2stw!4v1576846669016!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="contact-location-one">
+                <h2>地點：</h2>
+                <h3>台北市信義區信義路五段150巷8號，位於大樓社區內。</h3>
+                <br>
+                <h2>如何前往：</h2>
+                <ul>
+                    <li>
+                        捷運-象山捷運站二號出口，往象山公園方向走，看到NOLA餐廳左轉。步行時間約10-15分鐘。
+                    </li>
+                    <li>
+                        公車-承德幹線、32、33、37，在信義國中(松仁)下車，在往信義路五段150巷步行約10分鐘。
+                    </li>
+                    <li>
+                        自行開車前往-松仁路上有路邊停車格、象山公園周邊也有路邊停車格。
+                        <br><br>
+                        其他附近收費停車場：
+                        <ol>
+                            <li>應安停車場(松智場)，步行約10-15分鐘。</li>
+                            <li>松仁路停車場，步行約10分鐘。</li>
+                            <li>環球世貿大樓停車場，步行約3分鐘。</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div class="about-width about-title contact-title">
+            <h2>傳送訊息</h2>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div class="about-width contact-email">
+            <form method="POST" name="contact-form" class="contact-form">
+                <div class="contact-grid">
+                    <span>
+                        <label for="contact-name" class="contact-label">姓名</label>
+                        <input type="text" id="contact-name" name="name" class="contact-input" required>
+                    </span>
+                    <span>
+                        <label for="contact-email" class="contact-label">電子信箱</label>
+                        <input type="email" id="contact-email" name="email" class="contact-input" required>
+                    </span>
+                </div>
+                <div>
+                    <label for="contact-subject" class="contact-label">標題</label>
+                    <input type="text" id="contact-subject" name="subject" class="contact-input" required>
+                </div>
+                <div>
+                    <label for="contact-body" class="contact-label">內容</label>
+                    <textarea id="contact-body" name="body" required></textarea>
+                </div>
+                <button class="contact-button" type="submit" onclick=sending()>傳送</button>
+            </form>
+            <h2 id="contact-sending" class="contact-note">{{ note }}</h2>
+
+        </div>
+    </div>
+
+<script>
+    function sending() {
+        var input_one = document.forms["contact-form"]["name"].value;
+        var input_two = document.forms["contact-form"]["email"].value;
+        var input_three = document.forms["contact-form"]["subject"].value;
+        var input_four = document.forms["contact-form"]["body"].value;
+        if (input_one !== "" && input_two !== "" && input_three !== "" && input_four !== "")
+            document.getElementById("contact-sending").innerHTML = "傳送中...";
+    }
+</script>
+{% endblock %}

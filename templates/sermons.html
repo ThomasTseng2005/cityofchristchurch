@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div id="about-header">
+        <div id="about-header-h1wrapper">
+            <h1>主日聚會</h1>
+        </div>
+        <div class="about-wrapper-center">
+            <img id="about-img" class="about-width" src="{{ url_for('static',filename='sermons.jpg') }}" alt="主日聚會">
+        </div>
+        <div id="about-story" class="about-wrapper-center">
+            <div>
+                <h2 class="about-width">
+                    聚會時間：週六10:00-13:00(含小組時間，會後備有愛宴)
+                    <br> <br>
+                    主日聚會是我們特別將一段時間分別出來， 一起與神相遇的美好時刻。我們的心靈在主日聚會裡得以親近神，與神相交連結，領受神的愛與祝福，生命因而得著建立、激勵和更新。這段時間我們會聆聽牧師的講道、學習真理，唱詩歌敬拜神，彼此同心禱告，並分享生命中經歷神的見證。我們真誠歡迎新朋友們來到我們當中，一起認識並尋求這位愛我們的神。
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div id="about-beliefs-two" class="about-width" style="top: 9rem !important;">
+            <div id="beliefs-card-one" class="belief-card">
+                <div>
+                    <h2>愛宴</h2>
+                    <h3>每次主日聚會後，我們會備有豐盛愛宴，誠摯歡迎每一位教會家人和新朋友，會後留下一起享用，在吃喝快樂中有更多的機會互相交流，認識彼此，享受美好的團契。</h3>
+                </div>
+            </div>
+            <div id="beliefs-card-two" class="belief-card">
+                <div>
+                    <h2>基督城市教會YouTube Channel</h2>
+                    <h3><a href="https://www.youtube.com/channel/UCTIEUHJc1IWDxEgdNzKO9EA">https://bit.ly/33zXntp</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f25eee12-d969-4786-a02d-672206961354" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1S16kpVAUOoZk1u00ZeZfEWPVhw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="cityofchristchurch" type="Python.FlaskServer">
+      <module name="cityofchristchurch" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f25eee12-d969-4786-a02d-672206961354" name="Default Changelist" comment="" />
+      <created>1561781390616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561781390616</updated>
+      <workItem from="1561781392217" duration="3558000" />
+      <workItem from="1561809412291" duration="2327000" />
+      <workItem from="1563027545158" duration="144000" />
+      <workItem from="1564280492193" duration="10948000" />
+      <workItem from="1565170798924" duration="1071000" />
+      <workItem from="1565183372370" duration="31139000" />
+      <workItem from="1565446133661" duration="20332000" />
+      <workItem from="1565755857135" duration="2161000" />
+      <workItem from="1565773384928" duration="9250000" />
+      <workItem from="1565872644232" duration="3246000" />
+      <workItem from="1565961067920" duration="7397000" />
+      <workItem from="1566128934726" duration="21004000" />
+      <workItem from="1566276052640" duration="24945000" />
+      <workItem from="1566895004076" duration="22926000" />
+      <workItem from="1568295913980" duration="15162000" />
+      <workItem from="1568459952444" duration="4860000" />
+      <workItem from="1568550617315" duration="3088000" />
+      <workItem from="1568721160698" duration="6770000" />
+      <workItem from="1569049527646" duration="596000" />
+      <workItem from="1569156848622" duration="4450000" />
+      <workItem from="1569485918196" duration="40000" />
+      <workItem from="1569580892177" duration="2226000" />
+      <workItem from="1569721051354" duration="4143000" />
+      <workItem from="1569748682082" duration="7615000" />
+      <workItem from="1570718525249" duration="22000" />
+      <workItem from="1570718646110" duration="42000" />
+      <workItem from="1570718912903" duration="4724000" />
+      <workItem from="1574315995402" duration="7627000" />
+      <workItem from="1574517159982" duration="435000" />
+      <workItem from="1574518191001" duration="2031000" />
+      <workItem from="1574567968075" duration="12401000" />
+      <workItem from="1575018054556" duration="6161000" />
+      <workItem from="1575191347253" duration="7615000" />
+      <workItem from="1575442086973" duration="1959000" />
+      <workItem from="1576557522143" duration="1135000" />
+      <workItem from="1576756271066" duration="7571000" />
+      <workItem from="1576769205344" duration="12714000" />
+      <workItem from="1576933269663" duration="17559000" />
+      <workItem from="1577162302034" duration="3838000" />
+      <workItem from="1577240033661" duration="16510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cityofchristchurch$cityofchristchurch.coverage" NAME="cityofchristchurch Coverage Results" MODIFIED="1577274284230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

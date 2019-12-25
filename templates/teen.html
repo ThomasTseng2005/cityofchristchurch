@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div id="about-header">
+        <div id="about-header-h1wrapper">
+            <h1>青年主日學</h1>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div id="about-beliefs-one" class="about-width">
+            <div class="about-beliefs-div beliefs-image">
+                <div>
+                    <img src="{{ url_for('static',filename='teen.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="about-beliefs-div beliefs-text-one" style="background: rgb(65,85,110) !important;">
+                <div>
+                    <h3 style="font-size: 1.5rem !important; font-weight: 200 !important;">
+                        時間：每周六 14:30-16:30
+                        <br> <br>
+                        青春期是孩子開始在意周遭的眼光、同儕關係、和建立自我形象的重要關鍵時期。
+                        在青年主日學中，我們希望透過先建立孩子與神的關係，經歷神的愛與大能，認識真理，並讓孩子有機會分享、傾聽，明白自己在耶穌基督裡的身份與價值，在屬靈同伴中建立真誠友愛，互相接納的關係，使孩子的生命大有能力，充滿喜樂，信心和盼望。
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

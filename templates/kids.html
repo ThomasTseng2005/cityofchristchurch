@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <div id="about-header">
+        <div id="about-header-h1wrapper">
+            <h1>兒童主日學</h1>
+        </div>
+        <div class="about-wrapper-center">
+            <img id="about-img" class="about-width" src="{{ url_for('static',filename='kids.jpg') }}" alt="小組">
+        </div>
+        <div id="about-story" class="about-wrapper-center">
+            <div>
+                <h2 class="about-width">
+                    時間：每周六10:00-13:00(含愛宴時間)
+                    <br> <br>
+                    孩子是我們積極培育的小小主門徒，我們相信神對每個孩子都有獨特美好的計畫。
+                    在兒童主日學中，我們有一群愛神、愛孩子的兒主老師們，更精選優質教材做為課程架構。
+                    每周都會針對一個聖經主題，帶孩子認識聖經故事、唱兒童詩歌，並且課程中會穿插許多好玩、有趣的遊戲活動。最重要的是，我們會帶著孩子禱告，學習將遇到的挑戰交給神，把所學的真理應用在生活中， 讓孩子在充滿愛與喜樂的環境中快樂成長。
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="about-wrapper-center">
+        <div id="about-beliefs-two" class="about-width" style="top: 9rem !important;">
+            <div id="beliefs-card-one" class="belief-card">
+                <div>
+                    <h3>兒童主日學是針對3-12歲的孩子所設計的課程，3歲以下的寶貝，歡迎父母陪同一起在兒主參與活動。若您的寶貝較獨立，也可由兒主配搭老師陪同，一同跟著大孩子們進行活動!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
