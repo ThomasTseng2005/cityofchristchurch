@@ -8,6 +8,8 @@
 
 html,
 body {
+    height: 100%;
+    min-height: 100%;
 }
 
 body{
@@ -15,6 +17,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: #f0f0eb;
+    min-height: 100%;
+    position: relative;
 }
 
 textarea{
@@ -446,12 +450,14 @@ path{
 
 .parallaxone{
     background: url("tom_ritson.jpg") no-repeat;
-    background-size: cover;
+    background-size: cover !important;
     background-attachment: fixed;
     height: 100vh;
     background-position: center top;
     margin: 0;
+    width: 100%;
 }
+
 
 .parallaxone h1{
     position: relative;
@@ -631,13 +637,14 @@ path{
     position: relative;
     top: 11rem;
     display: block;
+    height: 100%;
 }
 
 #about-story h2{
     position: relative;
     top: 9.5rem;
     padding: 2rem 3rem;
-    text-align: center;
+    text-align: left;
     background-color: white;
     font-size: 1.4rem;
     line-height: 3rem;
@@ -747,7 +754,8 @@ path{
 .beliefs-text-one h3{
     font-size: 1.2rem;
     font-family: "sourcehansans-tc", serif;
-    font-weight: 200;
+    font-weight: 300;
+    text-align: center;
 }
 
 .beliefs-image{
@@ -812,6 +820,7 @@ path{
 
 #about-beliefs-three .about-beliefs-div ul li{
     font-size: 1.1rem;
+    font-weight: 300;
 }
 
 #about-beliefs-three .beliefs-text-one h2{
@@ -906,7 +915,6 @@ path{
 .about-contribute-sub-text h2{
     font-size: 1.8rem;
     margin-bottom: 1.1rem;
-    text-align: center;
     display: flex;
     justify-content: center;
 }
@@ -914,7 +922,7 @@ path{
 .about-contribute-sub-text p{
     font-size: 1.2rem;
     margin: 0;
-    text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     font-weight: 300;
@@ -968,12 +976,8 @@ path{
 }
 
 .about-icon{
-    width: 4.5rem;
-    height: 4.5rem;
-    margin: 0;
-    border: grey solid 1px;
-    padding: 1rem;
-    border-radius: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 
 .about-icon-wrapper{
@@ -982,16 +986,22 @@ path{
     justify-content: center;
 }
 
+.about-icon-wrapper-two{
+    border-radius: 50px;
+    border: grey solid 1px;
+    padding: 1.2rem;
+}
+
 .about-icon g{
     margin: 0;
 }
 
 .about-icon path{
-    fill: yellow;
+    fill: black;
  }
 
 .about-icon polygon{
-    fill: yellow;
+    fill: black;
  }
 
 .about-support-text{
@@ -1070,8 +1080,29 @@ path{
     display: flex;
     justify-content: center;
     margin: 0;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+}
+
+#citytocity-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2.75rem;
+}
+
+#citytocity-logo img{
+    text-align: center;
+}
+
+#tee-logo{
+    display: flex;
+    justify-content: center;
+}
+
+#tee-logo img{
+    max-width: 60%;
+    text-align: center;
 }
 
 #open-web-calendar{
@@ -1204,12 +1235,15 @@ path{
 
 /* -------------- */
 
-@media (min-width: 1200px){
+@media only screen and (min-width: 1200px){
 }
 
-@media (max-width: 992px){
+@media only screen and (max-width: 992px){
     html, body{
         font-size: 90%;
+    }
+    .parallaxone{
+        background-attachment: scroll;
     }
     .parallaxone h1{
         top: 36vh;
@@ -1344,9 +1378,9 @@ path{
 }
 
 
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     html, body{
-        font-size: 85%;
+        font-size: 80%;
     }
     .nav-links{
         display: none !important;
@@ -1447,7 +1481,7 @@ path{
     }
 }
 
-@media (max-width: 576px){
+@media only screen and (max-width: 576px){
     html, body{
         font-size: 70%;
     }
@@ -1593,14 +1627,14 @@ path{
 
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     #calendar{
         font-size: 95% !important;
         margin-bottom: 6rem !important;
     }
 }
 
-@media (max-height: 480px) {
+@media only screen and (max-height: 480px) {
     html, body{
         font-size: 65%;
     }
@@ -1627,7 +1661,7 @@ path{
     }
 }
 
-@media (max-height: 320px) {
+@media only screen and (max-height: 320px) {
     html, body{
         font-size: 60%;
     }

@@ -1,4 +1,8 @@
 var buttonPressed = 0;
+const disableBodyScroll = bodyScrollLock.disableBodyScroll;
+const enableBodyScroll = bodyScrollLock.enableBodyScroll;
+const targetElementOne = document.querySelector("#targetelementone");
+const targetElementTwo = document.querySelector("#targetelementtwo");
 
 //Loader + When Page Loads
 window.addEventListener("DOMContentLoaded", function(){
@@ -45,9 +49,10 @@ function burgerClick() {
         document.getElementById("hid-link-five").style.animation = "hiddenLinkFadeIn 0.5s ease forwards 0.6s";
         document.getElementById("hid-link-six").style.animation = "hiddenLinkFadeIn 0.5s ease forwards 0.7s";
         document.getElementById("hid-link-seven").style.animation = "hiddenLinkFadeIn 0.5s ease forwards 0.8s";
-
         $('nav').removeClass("scrolled");
-        disableScroll();
+        //disableScroll();
+        disableBodyScroll(targetElementOne);
+        disableBodyScroll(targetElementTwo);
         try {
             document.getElementById("mainNavbar").style.background = "transparent";
         }
@@ -71,7 +76,9 @@ function burgerClick() {
         document.getElementById("line2").style.opacity = "1";
         document.getElementById("line3").style.transform = "";
         document.getElementById("line3").style.width = "1.875rem";
-        enableScroll();
+        //enableScroll();
+        enableBodyScroll(targetElementOne);
+        enableBodyScroll(targetElementTwo);
         //document.getElementById("main_footer").style.display = "block";
         $('nav').toggleClass('scrolled', $(window).scrollTop() > 50);
         $('.brand-anchor').toggleClass('brand-scrolled', $(window).scrollTop() > 50);
@@ -99,11 +106,11 @@ function openLinkInNewTab(url) {
 }
 
 function disableScroll() {
-    document.getElementById("html").style.overflowY = "hidden";
+    //document.getElementById("html").style.overflowY = "hidden";
     document.body.style.overflowY = "hidden";
 }
 function enableScroll() {
-    document.getElementById("html").style.overflowY = "visible";
+    //document.getElementById("html").style.overflowY = "visible";
     document.body.style.overflowY = "visible";
 }
 

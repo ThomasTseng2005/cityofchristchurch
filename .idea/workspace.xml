@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f25eee12-d969-4786-a02d-672206961354" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +138,12 @@
       <workItem from="1576769205344" duration="12714000" />
       <workItem from="1576933269663" duration="17559000" />
       <workItem from="1577162302034" duration="3838000" />
-      <workItem from="1577240033661" duration="16510000" />
+      <workItem from="1577240033661" duration="17929000" />
+      <workItem from="1577340180891" duration="7212000" />
+      <workItem from="1577453912880" duration="2076000" />
+      <workItem from="1577539541391" duration="4422000" />
+      <workItem from="1577876812136" duration="683000" />
+      <workItem from="1577878116316" duration="2199000" />
     </task>
     <servers />
   </component>
@@ -155,6 +164,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cityofchristchurch$cityofchristchurch.coverage" NAME="cityofchristchurch Coverage Results" MODIFIED="1577274284230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cityofchristchurch$cityofchristchurch.coverage" NAME="cityofchristchurch Coverage Results" MODIFIED="1577884952127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
